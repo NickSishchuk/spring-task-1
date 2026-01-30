@@ -1,0 +1,46 @@
+{
+  "trainingType:1": {
+    "trainingTypeId": 1,
+    "trainingTypeName": "Cardio"
+  },
+  "trainingType:2": {
+    "trainingTypeId": 2,
+    "trainingTypeName": "Strength"
+  },
+  "trainingType:3": {
+    "trainingTypeId": 3,
+    "trainingTypeName": "Yoga"
+  },
+  "trainer:1": {
+    "trainerId": 1,
+    "userId": 1,
+    "firstName": "John",
+    "lastName": "Smith",
+    "username": "John.Smith",
+    "password": "abc123xyz0",
+    "isActive": true,
+    "specialization": "Cardio"
+  },
+  "trainee:1": {
+    "userId": 1,
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "Jane.Doe",
+    "password": "xyz789abc1",
+    "isActive": true,
+    "dateOfBirth": "1995-05-15",
+    "address": "123 Main St"
+  },
+  "training:1": {
+    "trainingId": 1,
+    "traineeId": 1,
+    "trainerId": 1,
+    "trainingName": "Morning Cardio",
+    "trainingType": {
+      "trainingTypeId": 1,
+      "trainingTypeName": "Cardio"
+    },
+    "trainingDate": "2024-01-15",
+    "trainingDuration": 60
+  }
+}
